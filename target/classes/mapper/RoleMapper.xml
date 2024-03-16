@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.RoleMapper">
+<mapper namespace="com.Safehealthy.mapper.RoleMapper">
     <select id="loadAllRole" resultType="role">
         select roleid,rolename,roledesc,available from sys_role
         <where>

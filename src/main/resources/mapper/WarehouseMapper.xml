@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.WarehuoseMapper">
+<mapper namespace="com.Safehealthy.mapper.WarehuoseMapper">
  <select id="findAllWarehuose" resultType="Warehuose">
      select *from Warehuose
      <where>

@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.StoreMapper">
+<mapper namespace="com.Safehealthy.mapper.StoreMapper">
    <!-- 仓库库存药品信息-->
     <select id="selStore" resultType="Drugstore">
         SELECT d.rugstoreId,wa.supplierName warehouseName ,wa.warehouseId,d.type typeId,d.unit unitId,d.area areaId,d. skullId , d. supplierId ,d.drugstoreName,su.supplierName ,sk.skullName,un.unitName,d.tradePrice,

@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.CXiangmuPayMapper">
+<mapper namespace="com.Safehealthy.mapper.CXiangmuPayMapper">
     <!--查询该患者的所有收费项目-->
    <select id="selxiang" parameterType="Integer" resultType="CCashier">
        select * from cashier where reportId=#{reid} and state=1 and mstate=0 ORDER BY cashier DESC

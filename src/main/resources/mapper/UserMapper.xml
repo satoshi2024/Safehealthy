@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.UserMapper">
+<mapper namespace="com.Safehealthy.mapper.UserMapper">
     <select id="selectAllUser" resultType="user">
         select * from sys_user
         <where>

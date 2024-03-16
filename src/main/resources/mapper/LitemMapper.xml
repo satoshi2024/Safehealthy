@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.LitemMapper">
+<mapper namespace="com.Safehealthy.mapper.LitemMapper">
     <select id="selItems" parameterType="Litem" resultType="Litem">
         select i.inoutpatientId,i.projectName,i.unit unitId,i.bigproJectId projectId,i.price,u.unitName,p.projectName projectNames
         from inoutpatienttype i,unit u,projecttype p

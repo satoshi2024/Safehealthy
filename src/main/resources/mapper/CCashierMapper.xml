@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.CCashierMapper">
+<mapper namespace="com.Safehealthy.mapper.CCashierMapper">
     <!--查询所有患者-->
     <select id="sel" resultType="ReportVo">
         SELECT r.reportId,r.reportName,r.carid,r.phone,r.sex,r.price,r.age,p.department,d.doctorName,r.price,e.type,r.time,r.users,r.state,e.registeredid dregisteredid,d.doctorid ddoctorid,p.departmentId ddepartmentid

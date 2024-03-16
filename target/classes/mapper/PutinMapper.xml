@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.PutinMapper">
+<mapper namespace="com.Safehealthy.mapper.PutinMapper">
     <!--查询药品清单-->
     <select id="seldcy" resultType="Drugdictionary">
         SELECT dr.drugId,dr.drugName,un.unitId,un.unitName,dr.sellingPrice,ar.areaId,ar.areaName,ty.typeId,ty.typeName from drugdictionary dr,unit un,type ty,area ar where

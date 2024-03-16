@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.LpayMapper">
+<mapper namespace="com.Safehealthy.mapper.LpayMapper">
     <update id="updPay" parameterType="Register">
         update register set money=money+#{money} where registerid=#{registerid};
     </update>

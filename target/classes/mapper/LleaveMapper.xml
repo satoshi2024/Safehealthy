@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.LleaveMapper">
+<mapper namespace="com.Safehealthy.mapper.LleaveMapper">
     <select id="selRegisters" parameterType="Register" resultType="Register">
         select r.registerid,TO_DAYS(r.endDate)-TO_DAYS(registerDate) day,r.diagnose,r.discount,r.userName,r.age,r.sex,d.department department,r.money,c.doctorName doctorName,r.address,r.phone,r.idcard,r.registerDate,b.bedname bedName,r.operator,r.endDate,r.price,(r.money-r.price) prices
         from register r,departments d,doctor c,bed b

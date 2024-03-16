@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.aaa.mapper.COutMapper">
+<mapper namespace="com.Safehealthy.mapper.COutMapper">
     <!--查询所有药品信息-->
     <select id="selout" resultType="Coutpatienttype" parameterType="coutpatienttype">
         SELECT o.*,u.unitName FROM outpatienttype o,unit u WHERE o.unit=u.unitId
